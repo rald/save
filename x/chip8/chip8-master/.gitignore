@@ -1,0 +1,33 @@
+*.o
+
+# Executables:
+*.exe
+c8asm
+chip8
+c8dasm
+
+# emscripten generated code
+out
+
+# Log files, screenshots...
+*.log
+screen-*.bmp
+
+# Backup files
+*.bak
+*~
+test*.asm
+
+# default assembler output file
+a.ch8
+
+.gdbinit
+
+# Generated documentation:
+chip8-api.html
+README.html
+
+# http://devernay.free.fr/hacks/chip8/GAMES.zip
+GAMES
+
+.vscode
